@@ -36,7 +36,7 @@ namespace ConsoleApp1
             Console.WriteLine("Enter Grade");
 
             doj = DateTime.Parse(Console.ReadLine());
-            
+            grade = char.Parse(Console.ReadLine());
             Console.WriteLine("ENter Salary");
             salary = double.Parse(Console.ReadLine());
             Console.WriteLine("Name: \t" + name + "\nIn Age: " + age + "\nIn Grade: \t" + grade + "\nIn Salary: \t" + salary + "\nIn Date of Joining: \t" + doj);
